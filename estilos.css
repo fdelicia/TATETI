@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.popo{
+    width: 20;
+    height: 600;
+    outline: 2px solid rgb(0, 0, 0);
+    justify-content: center;
+
+}
+.boton{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    font-size: 8em;
+    font-family: fantasy;
+    color: red  ;
+    margin-top:0%;
+}
+.conteiner{
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+    max-width: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    max-width: 33.33%;
+    outline: 2px solid rgb(0, 0, 0);
+    font-size: 10em;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+#elh{
+   color: blue;
+   text-align: center; 
+   
+}
