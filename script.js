@@ -45,7 +45,7 @@ x9.addEventListener("mouseup",removedor9);
 
 function funciontemporal(n,m){
     contadorEmpate = contadorEmpate +1;
-    empate();
+    
 
    
     if (tiempo == "verde"){
@@ -110,7 +110,8 @@ function funciontemporal(n,m){
         }
         tiempo = "verde";
 
-    }}
+    }
+empate();}
 
 function empate(){
     if(contadorEmpate==9 && ganoVerde == 0 && ganoRojo == 0){
