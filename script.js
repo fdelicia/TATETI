@@ -22,6 +22,16 @@ var x7 = document.getElementById("7");
 var x8 = document.getElementById("8");
 var x9 = document.getElementById("9");
 
+var d1 = document.getElementById("11");
+var d2 = document.getElementById("12");
+var d3 = document.getElementById("13");
+var d4 = document.getElementById("14");
+var d5 = document.getElementById("15");
+var d6 = document.getElementById("16");
+var d7 = document.getElementById("17");
+var d8 = document.getElementById("18");
+var d9 = document.getElementById("19");
+
 x1.addEventListener("mousedown",faux1);
 x2.addEventListener("mousedown",faux2);
 x3.addEventListener("mousedown",faux3);
@@ -122,40 +132,40 @@ function empate(){
 
 function faux1(){
     varia = "a";
-    funciontemporal(x1,varia)
+    funciontemporal(d1,varia)
 }
 function faux2(){
     varia = "b";
-    funciontemporal(x2,varia)
+    funciontemporal(d2,varia)
 }
 function faux3(){
     varia = "c";
-    funciontemporal(x3,varia)
+    funciontemporal(d3,varia)
 }
 function faux4(){
     varia = "d";
-    funciontemporal(x4,varia)
+    funciontemporal(d4,varia)
 }
 function faux5(){
     varia = "e";
-    funciontemporal(x5,varia)   
+    funciontemporal(d5,varia)   
 }
 function faux6(){
     varia = "f";
-    funciontemporal(x6,varia)
+    funciontemporal(d6,varia)
 }
 function faux7(){
     varia = "g";
-    funciontemporal(x7,varia) 
+    funciontemporal(d7,varia) 
 }
 function faux8(){
     varia = "h";
-    funciontemporal(x8,varia)
+    funciontemporal(d8,varia)
    
 }
 function faux9(){
     varia = "i";
-    funciontemporal(x9,varia)
+    funciontemporal(d9,varia)
     
 }
 
@@ -199,4 +209,3 @@ function removedorTotal(){
     x8.removeEventListener("mousedown",faux8);
     x9.removeEventListener("mousedown",faux9);
 }
-
